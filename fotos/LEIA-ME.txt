@@ -1,0 +1,3 @@
+Coloque aqui as fotos dos bolos, doces e salgados.
+Use nomes sem espaços e sem acentos (exemplo: bolo-de-aniversario.jpg).
+Depois, em js/main.js, escreva o caminho no campo src, por exemplo: src:"fotos/coxinha.jpg"

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Geci Cakes Confeitaria | Bolos Personalizados em Barreira - CE</title>
+    <meta name="description"
+        content="Conheça os bolos personalizados da Geci Cakes Confeitaria em Barreira, Ceará. Veja inspirações e entre em contato pelo WhatsApp para consultar sua encomenda.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Geci Cakes Confeitaria | Bolos Personalizados em Barreira - CE">
+    <meta property="og:description"
+        content="Bolos decorados e personalizados em Barreira, Ceará. Peça seu orçamento pelo WhatsApp.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script
+        type="application/ld+json">{"@context":"https://schema.org","@type":"Bakery","name":"Geci Cakes Confeitaria","telephone":"+55 85 98179-5641","sameAs":["https://www.instagram.com/geci_cakes/"],"address":{"@type":"PostalAddress","streetAddress":"Rua Félix Pereira, 405, Centro","addressLocality":"Barreira","addressRegion":"CE","postalCode":"62795-000","addressCountry":"BR"}}</script>
+    <link rel="icon" type="image/png" href="fotos/favicon-removebg-preview (1).png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrap bar">
+            <a class="logo" href="#inicio" aria-label="Geci Cakes, início"><b>Geci Cakes</b><small>Confeitaria
+                    artesanal</small></a>
+            <nav id="nav" aria-label="Principal">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#bolos" data-go="bolos">Bolos</a></li>
+                    <li><a href="#bolos" data-go="doces">Doces</a></li>
+                    <li><a href="#bolos" data-go="salgados">Salgados</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <a class="btn btn-p hd-cta"
+                data-wa="Olá! Conheci a Geci Cakes pelo site e gostaria de informações para encomendar um bolo personalizado."
+                target="_blank" rel="noopener">Fazer encomenda</a>
+            <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu"><svg
+                    width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round">
+                    <path d="M4 7h16M4 12h16M4 17h16" />
+                </svg></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="wrap">
+                <div>
+                    <h1>Bolos feitos para transformar momentos em memórias doces.</h1>
+                    <p class="lead">Cada celebração merece um bolo especial. Descubra criações feitas com carinho,
+                        criatividade e atenção a cada detalhe.</p>
+                    <div class="actions">
+                        <a class="btn btn-p"
+                            data-wa="Olá! Conheci a Geci Cakes pelo site e gostaria de informações para encomendar um bolo personalizado."
+                            target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor">
+                                <use href="#wai" />
+                            </svg>Encomendar pelo WhatsApp</a>
+                        <a class="btn btn-s" href="#bolos">Conhecer nossos bolos</a>
+                    </div>
+                    <p class="loc">Feito com carinho em Barreira — CE.</p>
+                </div>
+                <div class="frame" data-car="hero"></div>
+            </div>
+        </section>
+
+        <section class="about" id="sobre">
+            <div class="wrap">
+                <div class="pic rv" data-car="about"></div>
+                <div class="rv">
+                    <h2>Mais do que um bolo, um detalhe que torna a celebração inesquecível.</h2>
+                    <p>Na Geci Cakes, cada criação é uma oportunidade de deixar momentos especiais ainda mais doces.
+                        Explore nossos trabalhos e encontre inspiração para sua próxima comemoração.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="bolos">
+            <div class="wrap">
+                <div class="head rv">
+                    <h2>Bolos, doces e salgados para a sua festa.</h2>
+                    <p>Escolha uma aba e conte sua ideia pelo WhatsApp.</p>
+                </div>
+                <div class="tabs" role="tablist" aria-label="Categorias de produtos"><button role="tab" id="t-bolos"
+                        data-tab="bolos" aria-selected="true">Bolos</button><button role="tab" id="t-doces"
+                        data-tab="doces" aria-selected="false">Doces</button><button role="tab" id="t-salgados"
+                        data-tab="salgados" aria-selected="false">Salgados</button></div>
+                <div class="cats" id="cats" role="tabpanel"></div>
+            </div>
+        </section>
+
+        <section class="gal" id="galeria">
+            <div class="wrap">
+                <div class="head rv">
+                    <h2>Galeria de bolos.</h2>
+                    <p>Toque em uma foto para ampliar.</p>
+                </div>
+                <div class="grid" id="grid"></div>
+                <div class="more"><a class="btn btn-s" href="https://www.instagram.com/geci_cakes/" target="_blank"
+                        rel="noopener">Ver mais no Instagram</a></div>
+            </div>
+        </section>
+
+        <section id="encomenda">
+            <div class="wrap">
+                <div class="head rv">
+                    <h2>Como fazer sua encomenda.</h2>
+                </div>
+                <ol class="steps rv">
+                    <li>
+                        <h3>Inspire-se</h3>
+                        <p>Explore a galeria e escolha uma referência para seu bolo.</p>
+                    </li>
+                    <li>
+                        <h3>Converse conosco</h3>
+                        <p>Envie sua ideia pelo WhatsApp e conte os detalhes da comemoração.</p>
+                    </li>
+                    <li>
+                        <h3>Consulte sua encomenda</h3>
+                        <p>Combine diretamente com a confeitaria os detalhes, valores e disponibilidade.</p>
+                    </li>
+                </ol>
+                <a class="btn btn-p" data-wa="Olá! Vi o site da Geci Cakes e gostaria de conversar sobre uma encomenda."
+                    target="_blank" rel="noopener">Conversar com a Geci Cakes</a>
+            </div>
+        </section>
+
+        <section class="rev" id="avaliacao">
+            <div class="wrap rv">
+                <h2>Carinho que conquista pelo sabor.</h2>
+                <blockquote>“Pude provar e comprovar do que me haviam dito quanto às suas deliciosas criações.”
+                </blockquote>
+                <p>Cledomilson Xavier</p>
+                <div class="stars" role="img" aria-label="5,0 de 5 estrelas">★★★★★</div>
+                <small>Avaliação 5,0 informada no Google (1 avaliação)</small>
+            </div>
+        </section>
+
+        <section class="insta">
+            <div class="wrap">
+                <div class="rv">
+                    <h2>Mais inspirações no nosso Instagram.</h2>
+                    <p style="margin:1rem 0 1.6rem;color:var(--muted)">Conheça outros bolos, descubra novas ideias e
+                        acompanhe nossas criações.</p>
+                    <a class="btn btn-p" href="https://www.instagram.com/geci_cakes/" target="_blank"
+                        rel="noopener">Seguir @geci_cakes</a>
+                </div>
+                <div class="mini" id="mini"></div>
+            </div>
+        </section>
+
+        <section class="contact" id="contato">
+            <div class="wrap">
+                <div class="rv">
+                    <h2>Estamos em Barreira — CE.</h2>
+                    <address><strong>Geci Cakes Confeitaria</strong><br>Rua Félix Pereira, nº 405, Centro<br>Barreira —
+                        CE · CEP 62795-000<br>Telefone/WhatsApp: (85) 98179-5641</address>
+                    <div class="actions">
+                        <a class="btn btn-p"
+                            data-wa="Olá! Conheci a Geci Cakes pelo site e gostaria de informações para encomendar um bolo personalizado."
+                            target="_blank" rel="noopener">Falar pelo WhatsApp</a>
+                        <a class="btn btn-s"
+                            href="https://www.google.com/maps/search/?api=1&query=Rua%20F%C3%A9lix%20Pereira%20405%20Centro%20Barreira%20CE%2062795-000"
+                            target="_blank" rel="noopener">Ver localização no mapa</a>
+                        <a class="btn btn-s" href="https://www.instagram.com/geci_cakes/" target="_blank"
+                            rel="noopener">Visitar Instagram</a>
+                    </div>
+                </div>
+                <div class="map"><iframe title="Mapa: Rua Félix Pereira, 405, Barreira — CE" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps?q=Rua%20F%C3%A9lix%20Pereira%20405%20Centro%20Barreira%20CE%2062795-000&output=embed"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="orcamento">
+            <div class="wrap">
+                <div class="rv">
+                    <h2>Vamos criar algo especial para sua próxima comemoração?</h2>
+                    <p class="lead">Conte sua ideia para a Geci Cakes e descubra as possibilidades para deixar seu
+                        momento ainda mais doce.</p>
+                    <p class="lead" style="font-size:.92rem">O formulário abre o WhatsApp com sua mensagem pronta. Nada
+                        é enviado antes de você tocar em enviar lá.</p>
+                </div>
+                <form id="f" novalidate>
+                    <label>Nome<input name="nome" autocomplete="name" required><span class="err"></span></label>
+                    <label>Tipo de comemoração<input name="tipo" placeholder="Aniversário, batizado, casamento..."
+                            required><span class="err"></span></label>
+                    <label>Data desejada<input name="data" type="date" required><span class="err"></span></label>
+                    <label>Descrição do bolo<textarea name="desc" rows="3"
+                            placeholder="Tema, cores, ideia de decoração..." required></textarea><span
+                            class="err"></span></label>
+                    <label>Número aproximado de convidados (opcional)<input name="conv" type="number" min="1"
+                            inputmode="numeric"></label>
+                    <small>A data é uma preferência, sujeita à confirmação da confeitaria.</small>
+                    <button class="btn btn-p" type="submit">Solicitar orçamento pelo WhatsApp</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <div><b>Geci Cakes Confeitaria</b>
+                <p>Rua Félix Pereira, 405, Centro, Barreira — CE</p>
+                <p>(85) 98179-5641</p>
+            </div>
+            <ul aria-label="Navegação rápida">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#bolos">Bolos</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://www.instagram.com/geci_cakes/" target="_blank" rel="noopener">Instagram
+                        @geci_cakes</a></li>
+                
+                <li> <a href="https://www.facebook.com/gecicakes" target="_blank" rel="noopener"> Facebook @geci_cakes</a></li>
+
+                <li>© <span id="yr"></span> Geci Cakes Confeitaria</li>
+            </ul>
+        </div>
+    </footer>
+
+    <a class="wa" id="waf"
+        data-wa="Olá! Conheci a Geci Cakes pelo site e gostaria de informações para encomendar um bolo personalizado."
+        target="_blank" rel="noopener" aria-label="Falar com a Geci Cakes pelo WhatsApp (abre em nova aba)"><svg
+            viewBox="0 0 24 24" fill="currentColor">
+            <use href="#wai" />
+        </svg></a>
+
+    <dialog id="dlg" aria-label="Foto ampliada"><button class="x" id="dx" aria-label="Fechar">×</button>
+        <div class="m" id="dm"></div>
+        <div class="cap"><span id="dc"></span><a class="btn btn-p" id="dw" target="_blank" rel="noopener">Quero um bolo
+                assim</a></div>
+    </dialog>
+
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="wai" viewBox="0 0 24 24">
+            <path
+                d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.300 2.400 1.500.3.1.5.1.6-.1l.9-1.100c.2-.3.4-.2.600-.1l1.900.9c.3.1.500.2.500.3.100.2.100.8-.1 1.500Z" />
+        </symbol>
+        <symbol id="ck" viewBox="0 0 24 24">
+            <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 20h14v-6H5zM7 14v-3h10v3M12 11V7" />
+                <path d="M12 4c.8.9.8 1.8 0 2.6-.8-.8-.8-1.700 0-2.600Z" />
+            </g>
+        </symbol>
+    </svg>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
